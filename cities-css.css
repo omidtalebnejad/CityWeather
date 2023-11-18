@@ -1,0 +1,81 @@
+/* Body Background */
+body {
+  background-color: #F4F7FC;
+}
+
+/* Heading Styles */
+h1 {
+  color: #333333;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #007BFF;
+  color: #FFFFFF;
+  padding: 10px;
+}
+
+td {
+  background-color: #FFFFFF;
+  color: #333333;
+  padding: 10px;
+}
+
+/* Row Selection */
+tr.selected {
+  background-color: #FFD700;
+}
+
+/* Temperature Colors */
+td.temperature {
+  color: #FF4500;
+}
+
+/* Country Name Colors */
+td.country {
+  color: #008000;
+}
+
+/* Capital Name Colors */
+td.capital {
+  color: #800080;
+}
+
+/* Button Styles */
+.btn {
+  display: inline-block;
+  padding: 8px 12px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #17A2B8;
+  color: #FFFFFF;
+}
+
+.btn-success {
+  background-color: #28A745;
+  color: #FFFFFF;
+}
+
+.btn-danger {
+  background-color: #DC3545;
+  color: #FFFFFF;
+}
+
+.btn-warning {
+  background-color: #FFC107;
+  color: #333333;
+}
+
+.btn-info {
+  background-color: #007BFF;
+  color: #FFFFFF;
+}
